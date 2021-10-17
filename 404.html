@@ -33,7 +33,7 @@
         -->
 
   <meta charset="UTF-8">
-  <title>Archives - Hexo</title>
+  <title> - Hexo</title>
 
   <!-- Favicons -->
   <link rel="icon shortcut" type="image/ico" href="/images/favicon.png">
@@ -63,7 +63,7 @@
   <!-- The Open Graph protocol -->
   <meta property="og:url" content="http://example.com">
   <meta property="og:type" content="blog">
-  <meta property="og:title" content="Archives - Hexo | Hexo">
+  <meta property="og:title" content=" - Hexo | Hexo">
   <meta property="og:image" content="/images/favicon.png" />
   
 
@@ -427,153 +427,20 @@
 
 
     <div id="barba-wrapper">
-      <div class="barba-container"  data-namespace="archive">
-        
-  
-<div class="theme-archive">
-  <div class="theme-archive__index">
-    <div class="theme-archive__header">
-      <div class="theme-archive__header__bg">
-        <img class="mdui-img-fluid mdui-img-rounded" src="/images/bg.png"/>
-      </div>
-      <div class="theme-archive__header__content" style="background-color:#eeeeee">
-        <img class="mdui-img-circle theme-archive__header__avatar" src="/images/avatar.png"/>
-        <div class="theme-archive__header__info">
-          <div class="theme-archive__header__name">
-            John Doe
-          </div>
-          <div class="theme-archive__header__slogan">
-            I&#39;m your slogan!
-          </div>
-        </div>
-        <div class="theme-spacer mdui-hidden-sm-down"></div>
-        
-          <button class="theme-archive__header__button mdui-btn mdui-color-theme-accent mdui-ripple mdui-btn-raised" mdui-dialog="{target: '#contactDialog'}">Contact me</button>
-        
-      </div>
-    </div>
-    <div class="theme-archive__items mdui-container-fluid">
-      <div class="theme-archive__items__title mdui-text-color-theme-secondary">
-        Categories
-      </div>
-      <div class="mdui-row">
-        
-      </div>
-    </div>
-    <div class="theme-archive__items mdui-container-fluid">
-      <div class="theme-archive__items__title mdui-text-color-theme-secondary">
-        Tags
-      </div>
-      <div class="mdui-row">
-        
-      </div>
-    </div>
-    <div class="theme-archive__items mdui-container-fluid">
-      <div class="theme-archive__items__title mdui-text-color-theme-secondary">
-        Years
-      </div>
-      <div class="mdui-row">
-        
-          
-          <div class="mdui-col-xs-6 mdui-col-md-3 theme-archive__items__item">
-            <a href="/archives/2021" target="_self" class="theme-link--no-style">
-              <div class="mdui-card mdui-color-cyan">
-                <div class="mdui-card-media" style="background-image: url(/images/random/19.png)"></div>
-                <div class="theme-archive__items__content theme-archive__items__content--no-length">
-                  <img class="mdui-img-circle theme-archive__items__avatar" src="/images/avatar.png" />
-                  <div class="theme-archive__items__text-title">2021</div>
-                </div>
-              </div>
-            </a>
-          </div>
-        
-      </div>
+      <div class="barba-container"  data-namespace="post">
+        <div class="theme-404 mdui-valign">
+  <div class="mdui-center">
+    <i class="mdui-icon material-icons mdui-center theme-404__error">&#xe001;</i>
+    <div class="theme-404__button">
+      <a href="/" class="mdui-btn mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-center">
+        404 - Return to homepage
+      </a>
     </div>
   </div>
-  
-    <div class="mdui-dialog" id="contactDialog">
-      <div class="mdui-dialog-title">
-        How to contact me
-      </div>
-      <div class="mdui-dialog-content">
-        <div class="mdui-list">
-          
-            <a href="https://twitter.com" title="Twitter" class="mdui-list-item mdui-ripple" target="_blank">
-              
-                <i class="mdui-list-item-icon mdui-icon fa fa-twitter mdui-text-center"></i>&emsp;
-              
-              
-              
-              Twitter
-            </a>
-          
-            <a href="https://facebook.com" title="Facebook" class="mdui-list-item mdui-ripple" target="_blank">
-              
-              
-              
-                <i class="mdui-list-item-icon"></i>&emsp;
-              
-              Facebook
-            </a>
-          
-        </div>
-      </div>
-      <div class="mdui-dialog-actions">
-        <button class="mdui-btn mdui-ripple" mdui-dialog-close>
-          Close
-        </button>
-      </div>
-    </div>
-  
-  <button id="index-fab" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent mdui-fab-hide" onclick="smoothScroll.animateScroll( 0 );">
-  <i class="mdui-icon material-icons">&#xe5d8;</i>
-</button>
-
 </div>
 <script type="text/javascript">
-  themeRuntime.scriptsMap.archive = [];
-  (function() {
-    var fabTopFlag = false;
-    var fabEl = document.getElementById('index-fab');
-    function fabShowHide() {
-      var bodyScrolled = document.documentElement.scrollTop || document.body.scrollTop;
-      if (bodyScrolled > 0 && !fabTopFlag) {
-        fabEl.classList.remove('mdui-fab-hide');
-        fabTopFlag = true;
-      } else if (bodyScrolled === 0 && fabTopFlag) {
-        fabEl.classList.add('mdui-fab-hide');
-        fabTopFlag = false;
-      }
-    }
-    fabShowHide()
-    window.addEventListener('scroll', fabShowHide);
-    var listener = {
-      function: fabShowHide,
-      event: 'scroll',
-      el: window,
-      removed: false
-    }
-    themeRuntime.scriptsMap.archive.push(listener)
-  })();
+  document.title = '404 - Hexo'
 </script>
-<script>
-    window.addEventListener("scroll", parallaxImg)
-    function parallaxImg(){
-      var bodyScrolled = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
-      document.querySelector('.theme-archive__header__bg img')
-        .style.transform = 'translateY(' + bodyScrolled * 0.4 + 'px)';
-    }
-    var listener = {
-      function: parallaxImg,
-      event: 'scroll',
-      el: window,
-      removed: false
-    }
-    themeRuntime.scriptsMap.archive.push(listener)
-</script>
-
-
-
 
       </div>
     </div>
