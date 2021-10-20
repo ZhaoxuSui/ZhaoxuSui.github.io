@@ -26,10 +26,10 @@
     flex-wrap: wrap;
   }
   .post-gallery-item .post-info {
-    width: 100%;
+    width: 33.33%;
   }
   .post-gallery-item .post-img {
-    width: 100%;
+    width: 33.33%;
     margin-top: $margin-m-1;
   }
 }
