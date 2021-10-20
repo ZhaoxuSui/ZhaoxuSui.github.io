@@ -381,15 +381,11 @@ body {
   margin-top: 2rem;
   margin-bottom: 3.5rem;
 }
-.post-list a {
-  background-image: linear-gradient(#fff, #fff), linear-gradient(#000, #000);
-  background-size: 100% 1px, 0% 1px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat, no-repeat;
-  transition: background-size 0.6s linear;
+.post-list .h-line-secondary {
+  margin-top: 0.75rem;
 }
-.post-list a:hover {
-  background-size: 0 1px, 100% 1px;
+.post-list .h-line-secondary:last-child {
+  display: none;
 }
 .year-title {
   margin-top: 3.5rem;
@@ -401,41 +397,51 @@ body {
 }
 .post-list-item {
   display: flex;
-  flex-wrap: nowrap;
-  margin-top: 0.75rem;
-  align-items: top;
+  margin-top: 3.5rem;
+  margin-bottom: 0.75rem;
 }
-.post-list-item .post-title {
-  flex-grow: 1;
-  font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5rem;
+.post-list-item .post-info {
+  margin-right: 1.5rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.post-list-item .post-info .post-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.25rem;
   color: #000;
-  font-variation-settings: 'wght' 500;
 }
-.post-list-item .post-date {
-  margin-left: 1.5rem;
-  min-width: 8rem;
-  text-align: right;
+.post-list-item .post-info .post-date {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.25rem;
   color: #000;
-  line-height: 1.5rem;
-  color: #bababa;
+}
+.post-list-item .post-img {
+  width: 50%;
+}
+.post-list-item a {
+  background-image: linear-gradient(#fff, #fff), linear-gradient(#000, #000);
+  background-size: 100% 1px, 0% 1px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat, no-repeat;
+  transition: background-size 0.6s linear;
+}
+.post-list-item a:hover {
+  background-size: 0 1px, 100% 1px;
 }
 @media (max-width: 480px) {
-  .post-list-item {
+  .post-gallery-item {
     flex-wrap: wrap;
   }
-  .post-list-item .post-title {
+  .post-gallery-item .post-info {
     width: 100%;
   }
-  .post-list-item .post-date {
-    margin-left: 0;
+  .post-gallery-item .post-img {
     width: 100%;
-    text-align: left;
+    margin-top: 0.75rem;
   }
 }
 .post-gallery-list .h-line-secondary {
