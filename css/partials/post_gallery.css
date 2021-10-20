@@ -22,6 +22,9 @@
 .post-gallery-item .post-img {
   width: 100%;
 }
+.post-gallery-item a {
+  margin-bottom: $margin-m-1;
+}
 @media (max-width: 480px) {
   .post-gallery-item {
     flex-wrap: wrap;
