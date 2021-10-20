@@ -20,7 +20,7 @@
   margin-bottom: $margin-m-1;
 }
 .post-gallery-item .post-img {
-  width: 50%;
+  width: 100%;
 }
 @media (max-width: 480px) {
   .post-gallery-item {
