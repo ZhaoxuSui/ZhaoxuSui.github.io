@@ -11,25 +11,25 @@
 }
 .post-gallery-item .post-info {
   margin-right: $margin-l-0;
-  width: 33.33%;
+  width: 50%;
   display: flex;
-  flex-direction: row wrap;
+  flex-direction: nowrap;
 }
 .post-gallery-item .post-info .post-title {
   margin-bottom: $margin-m-1;
 }
 .post-gallery-item .post-img {
-  width: 33.33%;
+  width: 50%;
 }
 @media (max-width: 480px) {
   .post-gallery-item {
     flex-wrap: wrap;
   }
   .post-gallery-item .post-info {
-    width: 33.33%;
+    width: 50%;
   }
   .post-gallery-item .post-img {
-    width: 33.33%;
+    width: 50%;
     margin-top: $margin-m-1;
   }
 }
