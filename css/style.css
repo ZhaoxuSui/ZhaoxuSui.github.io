@@ -458,7 +458,7 @@ body {
 }
 .post-gallery-item .post-info {
   margin-right: 1.5rem;
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: nowrap;
 }
@@ -493,10 +493,10 @@ body {
     flex-wrap: wrap;
   }
   .post-gallery-item .post-info {
-    width: 50%;
+    width: 100%;
   }
   .post-gallery-item .post-img {
-    width: 50%;
+    width: 100%;
     margin-top: 0.75rem;
   }
 }

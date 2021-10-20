@@ -12,7 +12,7 @@
 }
 .post-gallery-item .post-info {
   margin-right: $margin-l-0;
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: nowrap;
 }
@@ -27,10 +27,10 @@
     flex-wrap: wrap;
   }
   .post-gallery-item .post-info {
-    width: 50%;
+    width: 100%;
   }
   .post-gallery-item .post-img {
-    width: 50%;
+    width: 100%;
     margin-top: $margin-m-1;
   }
 }
