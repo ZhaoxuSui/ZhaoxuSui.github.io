@@ -2,7 +2,8 @@
   margin-top: $margin-m-1;
 }
 .post-gallery-list .h-line-secondary:last-child {
-  display: none;
+  display: flex;
+  flex-direction: nowrap;
 }
 .post-gallery-item {
   display: flex;

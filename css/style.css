@@ -448,7 +448,8 @@ body {
   margin-top: 0.75rem;
 }
 .post-gallery-list .h-line-secondary:last-child {
-  display: none;
+  display: flex;
+  flex-direction: nowrap;
 }
 .post-gallery-item {
   display: flex;
