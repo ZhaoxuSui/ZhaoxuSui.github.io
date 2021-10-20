@@ -26,13 +26,13 @@
   width: 50%;
 }
 @media (max-width: 480px) {
-  .post-gallery-item {
+  .post-list-item {
     flex-wrap: wrap;
   }
-  .post-gallery-item .post-info {
+  .post-list-item .post-info {
     width: 100%;
   }
-  .post-gallery-item .post-img {
+  .post-list-item .post-img {
     width: 100%;
     margin-top: $margin-m-1;
   }
