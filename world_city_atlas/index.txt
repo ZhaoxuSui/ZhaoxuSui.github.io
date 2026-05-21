@@ -1,26 +1,26 @@
-1: Ulaanbaatar, Astana, Samarkand, Almaty, Tashkent, Bishkek, Dushanbe, Bukhara
-2: Beijing, Shenyang, Tianjin, Dalian
-3: Shijiazhuang, Harbin, Changchun, Zhengzhou, Qingdao, Jinan, Taiyuan, Hohhot, Luoyang
-4: Lanzhou, Xi'an, Xianyang, Urumqi, Kunming, Chengdu, Chongqing, Lhasa
-5: Hefei, Nanchang, Nanjing, Ma'anshan, Wuhan, Changsha, Wuxi
-6: Shanghai, Suzhou, Ningbo, Hangzhou
-7: Quanzhou, Fuzhou, Zhangzhou, Xiamen, Shantou, Haikou, Nanning, Guiyang
-8: Guangzhou, Foshan, Dongguan, Shenzhen, Zhuhai, Hong Kong, Macau, Taipei, Keelung
-9: Sendai, Niigata, Sapporo, Saitama, Tokyo, Kawasaki, Yokohama, Chiba
-10: Nagoya, Toyota, Kanazawa, Hiroshima, Kyoto, Osaka, Kobe, Sakai, Fukuoka
-11: Pyongyang, Changwon, Gimhae, Busan, Incheon, Seoul, Seongnam, Yongjin, Suwon, Sejong, Daejeon, Gwangju, Daegu
-12: Iloilo, Bacolod, Cebu, Cagayan de Oro, Davao, Manila, Quezon City, Denpasar, Makassar
-13: Tangerang, Jakarta, Bekasi, Depok, Bogor, Bandung, Yogyakarta, Surakarta, Semarang, Surabaya
-14: George Town, Klang, Subangjaya, Kuala Lumpur, Putrajaya, Johor Bahru, Singapore, Medan, Bandar Seri Begawan, Palembang
-15: Yangon, Mandalay, Naypyitaw, Chiang Mai, Bangkok, Pattaya
-16: Vientiane, Siem Reap, Hanoi, Phnom Penh, Can Tho, Ho Chi Minh City, Da Nang
-17: Kathmandu, Thimphu, Chattogram, Dhaka, Colombo, Khulna, Male
-18: Bangaluru, Visakhapatnam, Coimbatore, Kochi, Madurai, Chennai
-19: Mumbai, Thane, Kalyan, Navi Mumbai, Surat, Nashik, Pimpri-Chinchwad, Pune, Hyderabad, Raipur, Nagpur
-20: Agra, Lucknow, Kanpur, Varanasi, Patna, Jaipur, Bhopal, Kolkata, Ahmedabad, Indore, Ranchi
-21: Delhi, New Delhi, Gurugram, Faridabad, Noida, Ghaziabad, Srinagar, Peshawar, Faisalabad, Multan, Islamabad, Rawalpindi, Karachi, Lahore
-22: Tbilisi, Baku, Yerevan, Ashgabat, Karaj, Tehran, Mashhad
-23: Isfahan, Tabriz, Shiraz, Mosul, Baghdad, Basrah, Aleppo, Damascus
-24: Kabul, Kuwait City, Sana'a, Aden, Manama, Doha, Muscat, Dammam
-25: Mecca, Riyadh, Abu Dhabi, Dubai, Sharjah
-26: Beirut, Haifa, Ammam, Tel Aviv, Jerusalem, Jeddah, Medina
+1: Ulaanbaatar, Astana, Samarkand, Almaty, Tashkent, Bishkek, Dushanbe, Bukhara (8)
+2: Beijing, Shenyang, Tianjin, Dalian (4)
+3: Shijiazhuang, Harbin, Changchun, Zhengzhou, Qingdao, Jinan, Taiyuan, Hohhot, Luoyang (9)
+4: Lanzhou, Xi'an, Xianyang, Urumqi, Kunming, Chengdu, Chongqing, Lhasa (8)
+5: Hefei, Nanchang, Nanjing, Ma'anshan, Wuhan, Changsha, Wuxi (7)
+6: Shanghai, Suzhou, Ningbo, Hangzhou (4)
+7: Quanzhou, Fuzhou, Zhangzhou, Xiamen, Shantou, Haikou, Nanning, Guiyang (8)
+8: Guangzhou, Foshan, Dongguan, Shenzhen, Zhuhai, Hong Kong, Macau, Taipei, Keelung ((9)
+9: Sendai, Niigata, Sapporo, Saitama, Tokyo, Kawasaki, Yokohama, Chiba (8)
+10: Nagoya, Toyota, Kanazawa, Hiroshima, Kyoto, Osaka, Kobe, Sakai, Fukuoka (9)
+11: Pyongyang, Changwon, Gimhae, Busan, Incheon, Seoul, Seongnam, Yongjin, Suwon, Sejong, Daejeon, Gwangju, Daegu (13)
+12: Iloilo, Bacolod, Cebu, Cagayan de Oro, Davao, Manila, Quezon City, Denpasar, Makassar (9)
+13: Tangerang, Jakarta, Bekasi, Depok, Bogor, Bandung, Yogyakarta, Surakarta, Semarang, Surabaya (10)
+14: George Town, Klang, Subangjaya, Kuala Lumpur, Putrajaya, Johor Bahru, Singapore, Medan, Bandar Seri Begawan, Palembang (10)
+15: Yangon, Mandalay, Naypyitaw, Chiang Mai, Bangkok, Pattaya (6)
+16: Vientiane, Siem Reap, Hanoi, Phnom Penh, Can Tho, Ho Chi Minh City, Da Nang (7)
+17: Kathmandu, Thimphu, Chattogram, Dhaka, Colombo, Khulna, Male (7)
+18: Bangaluru, Visakhapatnam, Coimbatore, Kochi, Madurai, Chennai (6)
+19: Mumbai, Thane, Kalyan, Navi Mumbai, Surat, Nashik, Pimpri-Chinchwad, Pune, Hyderabad, Raipur, Nagpur (11)
+20: Agra, Lucknow, Kanpur, Varanasi, Patna, Jaipur, Bhopal, Kolkata, Ahmedabad, Indore, Ranchi (11)
+21: Delhi, New Delhi, Gurugram, Faridabad, Noida, Ghaziabad, Srinagar, Peshawar, Faisalabad, Multan, Islamabad, Rawalpindi, Karachi, Lahore (14)
+22: Tbilisi, Baku, Yerevan, Ashgabat, Karaj, Tehran, Mashhad (7)
+23: Isfahan, Tabriz, Shiraz, Mosul, Baghdad, Basrah, Aleppo, Damascus (8)
+24: Kabul, Kuwait City, Sana'a, Aden, Manama, Doha, Muscat, Dammam (8)
+25: Mecca, Riyadh, Abu Dhabi, Dubai, Sharjah (5)
+26: Beirut, Haifa, Ammam, Tel Aviv, Jerusalem, Jeddah, Medina (7)
